@@ -132,20 +132,3 @@ header .container .images .texts h3:hover i {
     transform: translate(30%, 4%);
   }
 }
-
-#home {
-  height: 100%;
-  position: absolute;
-  top: 100%;
-  left: 0;
-}
-
-#home .container .box-of-products {
-  position: absolute;
-  top: 50%;
-  display: flex;
-}
-
-#home .container .box-of-products .box {
-  width: 350px;
-}
