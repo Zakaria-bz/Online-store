@@ -1,0 +1,17 @@
+.button-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  height: 80px;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  transition: all 0.3s;
+}
+
+.button-1:hover {
+  background-color: black;
+  color: white;
+}

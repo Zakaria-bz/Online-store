@@ -3,8 +3,45 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Tajawal";
+  src: url("fonts/Tajawal-Regular.woff2") format("woff2"),
+    url("fonts/Tajawal-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Regular.woff2") format("woff2"),
+    url("fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cairo";
+  src: url("fonts/Cairo-Regular.woff2") format("woff2"),
+    url("fonts/Cairo-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.woff2") format("woff2"),
+    url("fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-ar: "Tajawal", "Cairo", sans-serif;
+  --font-en: "Poppins", "Roboto", sans-serif;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-en);
   height: fit-content;
 }
 
